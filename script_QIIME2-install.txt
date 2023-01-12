@@ -1,0 +1,36 @@
+## STEP 1: Intall (miniconda)[https://conda.io/projects/conda/en/latest/user-guide/install/index.html] (or anaconda) 
+
+
+## STEP 2: Install wget
+
+> conda install wget
+
+
+## STEP 3: Install QIMME2 with condo
+
+#### MacOS: 
+> wget https://data.qiime2.org/distro/core/qiime2-2022.2-py38-osx-conda.yml
+> conda env create -n qiime2-2022.2 --file qiime2-2022.2-py38-osx-conda.yml
+
+#### Windows:
+> wget https://data.qiime2.org/distro/core/qiime2-2022.2-py38-linux-conda.yml
+> conda env create -n qiime2-2022.2 --file qiime2-2022.2-py38-linux-conda.yml
+
+#### Linux: 
+
+Same as for Windows. 
+
+
+## STEP 3: Activate QIIME2 env:
+
+> conda activate qiime2-2022.2
+
+
+### RECOMMENDED - Test successful installation:
+
+> qiime --help
+
+
+### (Re)-activating env: 
+
+> conda activate qiime2-2022.2
